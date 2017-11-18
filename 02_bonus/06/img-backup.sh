@@ -19,3 +19,6 @@ echo "\033[1;32mDone!\033[0m"
 #TO LOAD:
 #	$ bunzip2 [FILE].tar.bz2 
 #	$ cat [FILE].tar | docker image load
+
+#TO RENAME:
+#	$ docker tag [IMAGE_ID]  [REPOSITORY]:[TAG]
